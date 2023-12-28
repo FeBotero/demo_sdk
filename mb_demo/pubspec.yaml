@@ -1,0 +1,23 @@
+name: mb_demo
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fluttertoast: ^8.2.4
+  validatorless: ^1.2.3
+  sdk_camera:
+    path: ../packages/camera/sdk_camera
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
