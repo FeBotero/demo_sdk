@@ -73,7 +73,8 @@ goToLogin(
       LoginSettings(
           ip: ip, port: devPort, userName: username, password: password),
     );
-    if (response.status == ResponseStatus.success) {
+    print("AQUI ${response.status}");
+    if (response == "succeed") {
       UserInfoProvider.instance()
           .addUser(UserModel(userId: response.value as int, channelId: 0));
       Fluttertoast.showToast(
@@ -88,7 +89,7 @@ goToLogin(
         const Duration(seconds: 1),
       );
     } else {
-      print(response);
+      print("AQUI OH $response");
       throw LoginError(
         response.toString(),
       );
@@ -120,9 +121,9 @@ dialogError(context, e) {
                   ],
                 ),
                 const SizedBox(height: 15),
-                Text("Error Message"
-                    // " ${AppLocalizations.of(context)!.errorMessage}:  ${e is LoginError ? e.message : AppLocalizations.of(context)!.unknownError}.",
-                    ),
+                Text(
+                  " Erro Message:  ${e is LoginError ? e.message : "unknownError"}.",
+                ),
               ],
             ),
           ],

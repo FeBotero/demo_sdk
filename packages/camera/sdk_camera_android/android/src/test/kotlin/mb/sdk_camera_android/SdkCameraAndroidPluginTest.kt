@@ -2,6 +2,7 @@ package mb.sdk_camera_android
 
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
+import mb.sdk_camera_android.sdk.SdkCameraAndroidPlugin
 import kotlin.test.Test
 import org.mockito.Mockito
 

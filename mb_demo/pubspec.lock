@@ -128,17 +128,24 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.7"
-  plugin_sdk_camera_android:
-    dependency: transitive
-    description:
-      path: "../packages/camera/plugin_sdk_camera_android"
-      relative: true
-    source: path
-    version: "0.0.1"
   sdk_camera:
     dependency: "direct main"
     description:
       path: "../packages/camera/sdk_camera"
+      relative: true
+    source: path
+    version: "0.0.1"
+  sdk_camera_android:
+    dependency: transitive
+    description:
+      path: "../packages/camera/sdk_camera_android"
+      relative: true
+    source: path
+    version: "0.0.1"
+  sdk_camera_ios:
+    dependency: transitive
+    description:
+      path: "../packages/camera/sdk_camera_ios"
       relative: true
     source: path
     version: "0.0.1"

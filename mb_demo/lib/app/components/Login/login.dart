@@ -273,8 +273,8 @@ class _LoginPageState extends State<LoginPage> {
                           borderRadius: BorderRadius.circular(5)),
                       backgroundColor: Colors.blue[900],
                       heroTag: 'login',
-                      onPressed: () {
-                        Login.tryLogin(
+                      onPressed: () async {
+                        await Login.tryLogin(
                             formKey,
                             context,
                             ipController,

@@ -1,3 +1,5 @@
+package mb.sdk_camera_android.uniview
+
 data class UniviewResponse (
     var status: ResponseStatus = ResponseStatus.FAILURE,
     var value: Any? = null

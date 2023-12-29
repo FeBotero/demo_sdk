@@ -21,8 +21,8 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
-  
   plugin:
+    implements: sdk_camera
     platforms:
       android:
         package: mb.sdk_camera_android.sdk
