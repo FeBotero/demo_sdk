@@ -169,6 +169,27 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  sdk_camera_android:
+    dependency: transitive
+    description:
+      path: "../../sdk_camera_android"
+      relative: true
+    source: path
+    version: "0.0.1"
+  sdk_camera_ios:
+    dependency: transitive
+    description:
+      path: "../../sdk_camera_ios"
+      relative: true
+    source: path
+    version: "0.0.1"
+  sdk_camera_platform_interface:
+    dependency: transitive
+    description:
+      path: "../../sdk_camera_platform_interface"
+      relative: true
+    source: path
+    version: "0.0.1"
   sky_engine:
     dependency: transitive
     description: flutter
